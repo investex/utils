@@ -6,4 +6,10 @@ defmodule Utils.Rop do
     |> Map.put(key, result)
     |> ok
   end
+
+  def put_back_in(result, map, keys) do
+    map
+    |> put_in(keys, result)
+    |> ok
+  end
 end
