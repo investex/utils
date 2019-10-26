@@ -21,7 +21,7 @@ defmodule Utils.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:rop, git: "https://github.com/ryantaylor/rop.git"}
+      {:rop, git: "https://github.com/ryantaylor/rop.git", branch: "master"}
     ]
   end
 end
